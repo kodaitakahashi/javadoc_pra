@@ -2,7 +2,13 @@ package example;
 
 import java.util.Arrays;
 
-public class Calculation {
+/**
+ * 数値の計算ロジックを提供します。
+ * 
+ * @author kodaitakahashi
+ *
+ */
+public class CalculationLogic {
 
     /**
      * 二つの整数の足し算の結果を返します。
@@ -42,7 +48,7 @@ public class Calculation {
      * </p>
      * 
      * <p>
-     * 基本型のラッパークラスを値を整数として足し算したい時に使用します。
+     * 基本型のラッパークラスの値を整数として足し算したい時に使用します。
      * </p>
      * <p>
      * int型で返すため、int型が扱える値を超えるとNumberFormatExceptionが発生します。
@@ -67,7 +73,7 @@ public class Calculation {
      * </p>
      * 
      * <p>
-     * 複数の基本型のラッパークラスを値を整数として足し算したい時に使用します。
+     * 複数の基本型のラッパークラスの値を整数として足し算したい時に使用します。
      * </p>
      * 
      * <p>
