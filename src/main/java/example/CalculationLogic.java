@@ -8,7 +8,10 @@ import java.util.Arrays;
  * @author kodaitakahashi
  *
  */
-public class CalculationLogic {
+public final class CalculationLogic {
+
+    private CalculationLogic() {
+    };
 
     /**
      * 二つの整数の足し算の結果を返します。
@@ -78,7 +81,7 @@ public class CalculationLogic {
      * 
      * <p>
      * <code>int</code>型で返すため、<code>int</code>型が扱える値を
-     * 超える値を渡すと整数値がおかしくなるため渡す数値は気を付けてください。
+     * 超える値を渡すと予期しない整数値になるため渡す値は気を付けてください。
      * </p>
      * 
      * @param numbers
