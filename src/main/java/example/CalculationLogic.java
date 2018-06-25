@@ -101,6 +101,9 @@ public final class CalculationLogic {
     }
 
     // TODO 割り算の処理。
+    // 最低限の仕様
+    // 引数 int, int
+    // 戻り値 int
     // ドキュメンテーションコメントを読めば使い方がわかるように意識すること
 
 }

@@ -1,5 +1,11 @@
 package example;
 
+/**
+ * 人の情報を管理するDTO
+ * 
+ * @author kodaitakahashi
+ *
+ */
 public class PersonDto {
 
     /**
